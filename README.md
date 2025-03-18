@@ -41,72 +41,17 @@ Use tools like Burp Suite and OWASP ZAP to intercept and analyze requests
 
 Perform the necessary penetration testing attacks as per the OWASP Top 10
 
-📑 Findings and Reports
+Findings and Reports
 
 The following table outlines the vulnerabilities found during testing:
 
-Vulnerability
-
-Exploited Feature
-
-Impact
-
-Mitigation Recommendations
-
-SQL Injection (SQLi)
-
-Login Form
-
-High
-
-Use prepared statements, input validation
-
-Cross-Site Scripting (XSS)
-
-Comment Section
-
-Medium
-
-Implement output encoding, CSP headers
-
-Cross-Site Request Forgery (CSRF)
-
-Account Settings
-
-High
-
-Implement CSRF tokens, same-site cookies
-
-Broken Authentication
-
-Login Session
-
-Critical
-
-Use secure session management, multi-factor authentication
-
-Security Misconfigurations
-
-Server Headers
-
-Medium
-
-Remove unnecessary headers, configure security settings properly
-
-🔒 Best Practices for Secure Web Applications
-
-To protect against common vulnerabilities, follow these security measures:
-
-✅ Use HTTPS to encrypt traffic
-
-✅ Implement strong authentication (MFA, secure password storage)
-
-✅ Perform input validation to prevent SQLi and XSS attacks
-
-✅ Set up proper access controls to prevent unauthorized access
-
-✅ Regularly update dependencies to patch security flaws
-
+| Vulnerability            | Exploited Feature | Impact   | Mitigation Recommendations                                      |
+|--------------------------|------------------|----------|----------------------------------------------------------------|
+| **SQL Injection (SQLi)** | Login Form       | High     | Use prepared statements, input validation                      |
+| **Cross-Site Scripting (XSS)** | Comment Section  | Medium   | Implement output encoding, CSP headers                         |
+| **Cross-Site Request Forgery (CSRF)** | Account Settings | High     | Implement CSRF tokens, same-site cookies                       |
+| **Broken Authentication** | Login Session    | Critical | Use secure session management, multi-factor authentication     |
+| **Security Misconfigurations** | Server Headers   | Medium   | Remove unnecessary headers, configure security settings properly |
 📌 Future Improvements
 
 Enhance API security testing with Postman and Burp Suite API scanning
