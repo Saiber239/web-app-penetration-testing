@@ -52,6 +52,7 @@ The following table outlines the vulnerabilities found during testing:
 | **Cross-Site Request Forgery (CSRF)** | Account Settings | High     | Implement CSRF tokens, same-site cookies                       |
 | **Broken Authentication** | Login Session    | Critical | Use secure session management, multi-factor authentication     |
 | **Security Misconfigurations** | Server Headers   | Medium   | Remove unnecessary headers, configure security settings properly |
+
 📌 Future Improvements
 
 Enhance API security testing with Postman and Burp Suite API scanning
